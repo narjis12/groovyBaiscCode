@@ -7,7 +7,10 @@ public class Halo {
     public void hi()
     {//log
 
-         RestAssured.given().basePath("").queryParam("").log().all().when().get("").then().log().all();
+         //System.out.println("ssdsdsd");
+//System.out.println("ssdsdsd");
+//System.out.println("ssdsdsd");
+RestAssured.given().basePath("").queryParam("").log().all().when().get("").then().log().all();
 //log
 //System.out.println("ssdsdsd");
 
