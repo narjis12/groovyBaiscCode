@@ -7,6 +7,7 @@ public class Halo {
     public void hi()
     {
          RestAssured.given().basePath("").queryParam("").log().all().when().get("").then().log().all();
+//log
 
     }
 
