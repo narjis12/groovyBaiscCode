@@ -9,6 +9,7 @@ public class Halo {
 
          RestAssured.given().basePath("").queryParam("").log().all().when().get("").then().log().all();
 //log
+//System.out.println("ssdsdsd");
 
     }
 
